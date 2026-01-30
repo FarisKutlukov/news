@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Газетная новость</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Шрифт с газетным характером -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            background: #fdfdfb;
+            color: #111;
+            font-family: "PT Serif", serif;
+        }
+
+        header {
+            border-bottom: 3px solid #000;
+            padding: 20px 0 10px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            letter-spacing: 2px;
+        }
+
+        header .date {
+            font-size: 0.9rem;
+            color: #555;
+            margin-top: 5px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .headline {
+            font-size: 2.2rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 15px;
+        }
+
+        .subheadline {
+            font-size: 1.2rem;
+            color: #444;
+            margin-bottom: 25px;
+        }
+
+        .meta {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+
+        .lead-photo {
+            margin: 30px 0;
+        }
+
+        .lead-photo img {
+            width: 100%;
+            display: block;
+        }
+
+        .photo-caption {
+            font-size: 0.85rem;
+            color: #555;
+            margin-top: 6px;
+        }
+
+        .article {
+            column-count: 2;
+            column-gap: 40px;
+            font-size: 1.05rem;
+            line-height: 1.75;
+        }
+
+        .article p {
+            margin-top: 0;
+            text-align: justify;
+        }
+
+        .article p:first-child::first-letter {
+            font-size: 3.2rem;
+            font-weight: 700;
+            float: left;
+            line-height: 1;
+            margin: 4px 10px 0 0;
+        }
+
+        footer {
+            border-top: 1px solid #ccc;
+            margin-top: 50px;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            .article {
+                column-count: 1;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .headline {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ЕЖЕДНЕВНАЯ ГАЗЕТА</h1>
+    <div class="date">Алматы • 30 января 2026</div>
+</header>
+
+<main>
+    <h2 class="headline">Ислам Махачев снова в деле: чемпион UFC возвращается в октагон</h2>
+    <div class="subheadline">
+Российский чемпион выходит в октагон против опасного соперника
+    </div>
+
+    <div class="meta">
+        Автор: Редакция IRT • Спорт
+    </div>
+
+    <!-- ГЛАВНОЕ ФОТО -->
+    <div class="lead-photo">
+        <img src="photo.jpg" alt="Главное фото новости">
+        <div class="photo-caption">
+            
+        </div>
+    </div>
+
+    <div class="article">
+        <p>
+           Чемпион UFC в лёгком весе Ислам Махачев готовится к очередному поединку, который обещает стать одним из главных событий предстоящего турнира UFC. Российский боец выйдет в октагон против Абдусомада "КАМАЗ" Иминова, и этот бой уже вызывает большой интерес у фанатов смешанных единоборств.
+</p>
+
+        <p>
+            Ислам Махачев по праву считается одним из самых доминирующих бойцов своего дивизиона. Он известен своим выдающимся борцовским арсеналом, контролем в партере и высоким бойцовским интеллектом. В последних поединках Махачев уверенно подтверждал статус чемпиона, не оставляя соперникам шансов навязать свою игру.
+Его будущий оппонент, Абдусомад "КАМАЗ", представляет серьёзную угрозу. Он обладает универсальным стилем и настроен прервать победную серию чемпиона. Для него этот бой — шанс вписать своё имя в историю UFC и побороться за титул.
+        </p>
+
+        <p>  
+По мнению экспертов, ключевым фактором поединка станет способность соперника справиться с давлением и борьбой Махачева. Если бой перейдёт в партер, преимущество будет на стороне чемпиона, однако в стойке возможны неожиданные повороты.
+        </p>
+
+        <p>
+      Поединок состоится 15 мая в рамках турнира UFC Fight Night 272 и станет центральным событием вечера. Болельщики по всему миру с нетерпением ждут выхода Ислама Махачева в октагон, ожидая очередного яркого выступления от одного из лучших бойцов современного UFC.
+        </p>
+    </div>
+</main>
+
+<footer>
+    © 2026 «Ежедневная газета»
+</footer>
+
+</body>
+</html>
